@@ -7,7 +7,6 @@ const md = new MarkdownIt()
 function App() {
   const [input, setInput] = useState('')
   const [markedDownText, setMarkedDownText] = useState('')
-
   const handleChange = (evt) => {
     // updates input, and formats markdown side of text
     setInput(evt.target.value)
